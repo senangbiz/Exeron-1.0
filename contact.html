@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - EXERON Industrial Ventilation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-scroll" id="navbar">
+        <div class="container-lg">
+            <a class="navbar-brand" href="index.html">
+                <div class="brand-logo">
+                    <i class="fas fa-fan"></i>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name">EXERON</span>
+                    <span class="brand-subtitle">Sdn Bhd</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-gradient btn-sm" href="contact.html">Get a Quote</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="page-hero bg-dark text-white py-5" style="background: linear-gradient(135deg, #1a2332 0%, #2d3e50 100%); margin-top: 70px;">
+        <div class="container-lg py-5">
+            <div class="text-center">
+                <div class="tagline-bar justify-content-center mb-4">
+                    <span class="tagline-line"></span>
+                    <span class="tagline-text">Contact Us</span>
+                    <span class="tagline-line"></span>
+                </div>
+                <h1 class="display-4 fw-bold mb-4">
+                    Ventilate with<br>
+                    <span class="text-gradient">Us!</span>
+                </h1>
+                <p class="lead">
+                    Get in touch with our team to discuss your ventilation needs. 
+                    We're here to help you create a safer working environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container-lg">
+            <div class="row g-5">
+                <!-- Contact Info -->
+                <div class="col-lg-5">
+                    <div class="contact-info-box">
+                        <div class="mb-5">
+                            <div class="d-flex align-items-center gap-3 mb-4">
+                                <div class="brand-logo-lg">
+                                    <i class="fas fa-fan"></i>
+                                </div>
+                                <div>
+                                    <h3 class="fw-bold mb-0">EXERON</h3>
+                                    <small class="text-muted">Sdn Bhd</small>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                Ready to discuss your confined space ventilation needs? 
+                                Contact us today and our team will get back to you within 24 hours.
+                            </p>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Address</h5>
+                                <p class="text-muted mb-0">
+                                    D2-3, Jalan Selaman 1,<br>
+                                    Dataran De Palma Ampang,<br>
+                                    56100 Kuala Lumpur
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Email</h5>
+                                <a href="mailto:sales@exeron.com.my" class="text-muted text-decoration-none">
+                                    sales@exeron.com.my
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Phone</h5>
+                                <a href="tel:+60193231069" class="text-muted text-decoration-none">
+                                    +6019-323 1069
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold">Business Hours</h5>
+                                <p class="text-muted mb-0">
+                                    Mon - Fri: 8:00 AM - 6:00 PM<br>
+                                    Sat: 8:00 AM - 1:00 PM
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="contact-form-box">
+                        <h3 class="fw-bold mb-4">Send Us a Message</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label fw-bold">Your Name *</label>
+                                    <input type="text" class="form-control form-control-lg" id="name" name="name" required>
+                                    <div class="invalid-feedback">Please provide a name.</div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-bold">Email *</label>
+                                    <input type="email" class="form-control form-control-lg" id="email" name="email" required>
+                                    <div class="invalid-feedback">Please provide a valid email.</div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control form-control-lg" id="phone" name="phone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="company" class="form-label fw-bold">Company</label>
+                                    <input type="text" class="form-control form-control-lg" id="company" name="company">
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="message" class="form-label fw-bold">Message *</label>
+                                <textarea class="form-control form-control-lg" id="message" name="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">Please provide a message.</div>
+                            </div>
+
+                            <button type="submit" class="btn btn-gradient btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+
+                            <div id="successMessage" class="alert alert-success mt-4" style="display: none;">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-check-circle me-3 fs-5"></i>
+                                    <div>
+                                        <h5 class="mb-1">Thank You!</h5>
+                                        <p class="mb-0">Your message has been sent successfully. We'll get back to you soon.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Optional) -->
+    <section class="py-5 bg-light">
+        <div class="container-lg">
+            <h2 class="text-center fw-bold mb-5">Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3295635788986!2d101.55!3d3.13!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc36f4ef4b5555%3A0x1234567890!2sExeron!5e0!3m2!1sen!2smy!4v1234567890123" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-lg"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container-lg mb-4">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="footer-brand mb-3">
+                        <div class="brand-logo-footer">
+                            <i class="fas fa-fan"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">EXERON</h5>
+                            <small class="text-muted">Sdn Bhd</small>
+                        </div>
+                    </div>
+                    <p class="text-muted small">
+                        Providing advanced ventilation solutions for confined spaces, 
+                        ensuring safety and efficiency.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Services</a></li>
+                        <li><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="mb-3">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="text-muted"><small>Confined Space Ventilation</small></li>
+                        <li class="text-muted"><small>Equipment Cooling</small></li>
+                        <li class="text-muted"><small>Climate Control</small></li>
+                        <li class="text-muted"><small>Dehumidification</small></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <small class="text-muted">
+                                <i class="fas fa-map-marker-alt text-warning"></i>
+                                D2-3, Jalan Selaman 1, Dataran De Palma, 56100 KL
+                            </small>
+                        </li>
+                        <li class="mb-2">
+                            <small>
+                                <a href="mailto:sales@exeron.com.my" class="text-muted text-decoration-none">
+                                    <i class="fas fa-envelope text-warning"></i> sales@exeron.com.my
+                                </a>
+                            </small>
+                        </li>
+                        <li>
+                            <small>
+                                <a href="tel:+60193231069" class="text-muted text-decoration-none">
+                                    <i class="fas fa-phone text-warning"></i> +6019-323 1069
+                                </a>
+                            </small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-top border-dark">
+            <div class="container-lg">
+                <div class="row align-items-center py-3">
+                    <div class="col-md-6">
+                        <p class="text-muted mb-0 small">© 2024 Exeron Sdn Bhd. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p class="text-muted mb-0 small">Ventilate with us!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
