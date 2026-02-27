@@ -19,7 +19,7 @@ const contactInfo = [
     icon: Phone,
     title: 'Phone',
     content: '+6013-394 8733',
-    link: 'https://wa.me/60133948733',
+    link: 'tel:60133948733',
   },
   {
     icon: Clock,

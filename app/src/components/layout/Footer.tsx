@@ -139,6 +139,8 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-brand-orange flex-shrink-0" />
                 <a
                   href="https://wa.me/60133948733"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/70 hover:text-brand-orange transition-colors text-sm"
                 >
                   +6013-394 8733
