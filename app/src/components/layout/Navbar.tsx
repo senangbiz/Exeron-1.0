@@ -44,14 +44,11 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
-              <div className="relative">
-                <div className="w-10 h-10 rounded-full bg-gradient-brand flex items-center justify-center">
-                  <Wind className="w-5 h-5 text-white" />
-                </div>
-                <motion.div
-                  className="absolute inset-0 rounded-full bg-gradient-brand"
-                  animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0, 0.5] }}
-                  transition={{ duration: 2, repeat: Infinity }}
+              <div className="relative w-10 h-10">
+                <img
+                  src="/Logo_Exeron.png"
+                  alt="Company Logo"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="flex flex-col">

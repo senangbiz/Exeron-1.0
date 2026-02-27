@@ -21,11 +21,11 @@ const values = [
 ];
 
 const milestones = [
-  { year: '2014', event: 'Exeron Sdn Bhd founded' },
-  { year: '2016', event: 'Expanded service portfolio' },
-  { year: '2018', event: '100th project completed' },
-  { year: '2020', event: 'Introduced advanced dehumidification' },
-  { year: '2023', event: 'Industry leader in Malaysia' },
+  { year: '2025', event: 'Exeron Sdn Bhd founded' },
+  { year: '2026', event: 'Expanded service portfolio' },
+  // { year: '2018', event: '100th project completed' },
+  // { year: '2020', event: 'Introduced advanced dehumidification' },
+  // { year: '2023', event: 'Industry leader in Malaysia' },
 ];
 
 export default function About() {

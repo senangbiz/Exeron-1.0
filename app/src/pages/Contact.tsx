@@ -18,8 +18,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    content: '+6019-323 1069',
-    link: 'tel:+60193231069',
+    content: '+6013-394 8733',
+    link: 'tel:+60133948733',
   },
   {
     icon: Clock,
@@ -106,9 +106,13 @@ export default function Contact() {
             >
               <div className="mb-8">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-14 h-14 bg-gradient-brand rounded-full flex items-center justify-center">
-                    <Wind className="w-7 h-7 text-white" />
-                  </div>
+                  <div className="relative w-10 h-10">
+                <img
+                  src="/Logo_Exeron.png"
+                  alt="Company Logo"
+                  className="w-full h-full object-contain"
+                />
+              </div>
                   <div>
                     <span className="font-display font-bold text-2xl text-brand-navy">EXERON</span>
                     <span className="block text-[10px] tracking-widest uppercase text-brand-medium-gray">

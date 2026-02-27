@@ -1,8 +1,13 @@
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-vendor/*
-.env
+# Ignore node_modules anywhere in the project
+**/node_modules/
+node_modules/
+
+# Ignore Vite build outputs
+**/dist/
+**/build/
+
+# Ignore local env files and logs
+**/.env
+**/.env.local
+*/npm-debug.log
+*/pnpm-debug.log

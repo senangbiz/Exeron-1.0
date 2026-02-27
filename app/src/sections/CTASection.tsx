@@ -80,10 +80,10 @@ export default function CTASection() {
                     <div>
                       <p className="text-white/60 text-sm">Call Us</p>
                       <a
-                        href="tel:+60193231069"
+                        href="tel:+60133948733"
                         className="text-white font-semibold text-lg hover:text-brand-orange transition-colors"
                       >
-                        +6019-323 1069
+                        +6013-394 8733
                       </a>
                     </div>
                   </div>

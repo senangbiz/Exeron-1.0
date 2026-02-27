@@ -30,8 +30,12 @@ export default function Footer() {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 rounded-full bg-gradient-brand flex items-center justify-center">
-                <Wind className="w-6 h-6 text-white" />
+              <div className="relative w-10 h-10">
+                <img
+                  src="/Logo_Exeron_White.png"
+                  alt="Company Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <span className="font-display font-bold text-2xl">EXERON</span>
@@ -134,10 +138,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-brand-orange flex-shrink-0" />
                 <a
-                  href="tel:+60193231069"
+                  href="tel:+60133948733"
                   className="text-white/70 hover:text-brand-orange transition-colors text-sm"
                 >
-                  +6019-323 1069
+                  +6013-394 8733
                 </a>
               </li>
             </ul>
