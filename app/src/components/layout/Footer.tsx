@@ -121,9 +121,9 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-orange flex-shrink-0 mt-0.5" />
                 <span className="text-white/70 text-sm">
-                  D2-3, Jalan Selaman 1,<br />
-                  Dataran De Palma Ampang,<br />
-                  56100 Kuala Lumpur
+                  No.3, Jalan Khazanah U2/15,<br />
+                  Taman TTDI Jaya,<br />
+                  40150 Shah Alam, Selangor, Malaysia
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -138,7 +138,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-brand-orange flex-shrink-0" />
                 <a
-                  href="tel:+60133948733"
+                  href="https://wa.me/60133948733"
                   className="text-white/70 hover:text-brand-orange transition-colors text-sm"
                 >
                   +6013-394 8733
@@ -154,7 +154,7 @@ export default function Footer() {
         <div className="w-full px-4 sm:px-6 lg:px-12 xl:px-20 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/50 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} Exeron Sdn Bhd. All rights reserved.
+              © {new Date().getFullYear()} Exeron Sdn Bhd. (1663570-W) All rights reserved.
             </p>
             <p className="text-white/50 text-sm">
               Ventilate with us!

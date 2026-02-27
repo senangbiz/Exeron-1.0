@@ -6,7 +6,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: 'Address',
-    content: 'D2-3, Jalan Selaman 1, Dataran De Palma Ampang, 56100 Kuala Lumpur',
+    content: 'No.3, Jalan Khazanah U2/15, Taman TTDI Jaya, 40150 Shah Alam, Selangor, Malaysia',
     link: null,
   },
   {
@@ -19,7 +19,7 @@ const contactInfo = [
     icon: Phone,
     title: 'Phone',
     content: '+6013-394 8733',
-    link: 'tel:+60133948733',
+    link: 'https://wa.me/60133948733',
   },
   {
     icon: Clock,
