@@ -1,11 +1,11 @@
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowRight, Shield, Wind, Thermometer } from 'lucide-react';
+import { ArrowRight, Shield, Thermometer } from 'lucide-react';
 
 const features = [
   { icon: Shield, text: 'Safety First' },
-  { icon: Wind, text: 'Proper Ventilation' },
+  { icon: Thermometer, text: 'Proper Ventilation' },
   { icon: Thermometer, text: 'Climate Control' },
 ];
 

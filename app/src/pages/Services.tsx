@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Wind, Thermometer, Shield, CheckCircle, ArrowRight, Droplets, Clock, Gauge } from 'lucide-react';
+import { Thermometer, Shield, CheckCircle, ArrowRight, Droplets, Clock, Gauge } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
   {
     id: 1,
-    icon: Wind,
+    icon: Thermometer,
     title: 'Ventilation for Works in Confined Space',
     description:
       'Proper ventilation will allow hot works being done safely in a confined space. The air change per hour need to meet the requirement to ensure smooth execution and avoiding any hazard and danger.',

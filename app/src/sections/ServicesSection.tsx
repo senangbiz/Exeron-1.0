@@ -1,12 +1,12 @@
 import { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Wind, Thermometer, Shield } from 'lucide-react';
+import { ArrowRight, Thermometer, Shield } from 'lucide-react';
 
 const services = [
   {
     id: 1,
-    icon: Wind,
+    icon: Thermometer,
     title: 'Ventilation for Works in Confined Space',
     shortTitle: 'Confined Space',
     description:
