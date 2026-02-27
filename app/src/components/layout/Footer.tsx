@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Wind, MapPin, Mail, Phone, Facebook, Linkedin, Instagram } from 'lucide-react';
+import { MapPin, Mail, Phone, Facebook, Linkedin, Instagram } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const quickLinks = [
